@@ -1,0 +1,909 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* HEADER */
+
+header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  background-color: #e4e4e4;
+}
+
+header img {
+  width: 50px;
+  margin-left: 50px;
+}
+
+/* LANDING PAGE */
+
+.landingpage {
+  display: flex;
+  flex-direction: row;
+}
+
+.landingpage .lp-teks {
+  width: 50%;
+  height: 720px;
+  background-color: #e4e4e4;
+}
+
+.landingpage .lp-teks h1 {
+  margin-top: 250px;
+  margin-left: 80px;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  letter-spacing: 3px;
+}
+
+.landingpage .lp-teks h3 {
+  margin-left: 80px;
+  font-family: "Inter", sans-serif;
+  letter-spacing: 5px;
+}
+
+.landingpage .lp-teks .sosialmedia {
+  width: max-content;
+  height: 50px;
+  margin-top: 150px;
+  margin-left: 65px;
+  background-color: #e4e4e4;
+  display: flex;
+  flex-direction: row;
+}
+
+.landingpage .lp-teks .sosialmedia .twitter {
+  width: 35px;
+  height: 35px;
+  margin: 0 15px;
+  background: url("../images/icon-twitter.png");
+  background-size: cover;
+}
+
+.landingpage .lp-teks .sosialmedia .twitter:hover {
+  background: url("../images/icon-twitter-color.png");
+  background-size: cover;
+}
+
+.landingpage .lp-teks .sosialmedia .facebook {
+  width: 35px;
+  height: 35px;
+  margin: 0 15px;
+  background: url("../images/icon-facebook.png");
+  background-size: cover;
+}
+
+.landingpage .lp-teks .sosialmedia .facebook:hover {
+  background: url("../images/icon-facebook-color.png");
+  background-size: cover;
+}
+
+.landingpage .lp-teks .sosialmedia .instagram {
+  width: 35px;
+  height: 35px;
+  margin: 0 15px;
+  background: url("../images/icon-instagram.png");
+  background-size: cover;
+}
+
+.landingpage .lp-teks .sosialmedia .instagram:hover {
+  background: url("../images/icon-instagram-color.png");
+  background-size: cover;
+}
+
+.landingpage .lp-teks .sosialmedia .youtube {
+  width: 35px;
+  height: 35px;
+  margin: 0 15px;
+  background: url("../images/icon-youtube.png");
+  background-size: cover;
+}
+
+.landingpage .lp-teks .sosialmedia .youtube:hover {
+  background: url("../images/icon-youtube-color.png");
+  background-size: cover;
+}
+
+.landingpage .lp-teks .sosialmedia .linkedin {
+  width: 35px;
+  height: 35px;
+  margin: 0 15px;
+  background: url("../images/icon-linkedin.png");
+  background-size: cover;
+}
+
+.landingpage .lp-teks .sosialmedia .linkedin:hover {
+  background: url("../images/icon-linkedin-color.png");
+  background-size: cover;
+}
+
+.landingpage .lp-teks .sosialmedia .mail {
+  z-index: 1;
+  width: 35px;
+  height: 35px;
+  margin: 0 15px;
+  background: url("../images/icon-mail.png");
+  background-size: cover;
+}
+
+.landingpage .lp-teks .sosialmedia .mail:hover {
+  background: url("../images/icon-mail-color.png");
+  background-size: cover;
+}
+
+.landingpage .lp-gambar {
+  width: 50%;
+  height: 720px;
+  background-color: #e4e4e4;
+}
+
+.landingpage .lp-gambar img {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  height: 650px;
+}
+
+/* ABOUT ME PAGE */
+
+.aboutmepage {
+  display: flex;
+  flex-direction: row;
+}
+
+.aboutmepage .aboutme-gambar {
+  width: 50%;
+  height: 720px;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+.aboutmepage .aboutme-gambar img {
+  width: 500px;
+}
+
+.aboutmepage .aboutme-teks {
+  width: 50%;
+  height: 720px;
+  background-color: black;
+}
+
+.aboutmepage .aboutme-teks h1 {
+  margin-top: 150px;
+  font-family: "Poppins", sans-serif;
+  color: #e4e4e4;
+}
+
+.aboutmepage .aboutme-teks h3 {
+  margin-top: 30px;
+  margin-right: 150px;
+  font-family: "Inter", sans-serif;
+  text-align: justify;
+  color: #e4e4e4;
+}
+
+.aboutmepage .aboutme-teks .tombol {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+.aboutmepage .aboutme-teks .tombol a {
+  text-decoration: none;
+  color: black;
+}
+
+.aboutmepage .aboutme-teks .tombol .tombol-download {
+  width: max-content;
+  height: max-content;
+  padding: 10px 12px;
+  border-radius: 5px;
+  font-family: "Inter", sans-serif;
+  background-color: #e4e4e4;
+  font-weight: bolder;
+}
+
+.aboutmepage .aboutme-teks .tombol .tombol-download:hover {
+  background-color: #24a0ed;
+  color: #e4e4e4;
+}
+
+.aboutmepage .aboutme-teks .tombol .tombol-lihat {
+  width: max-content;
+  height: max-content;
+  margin-left: 10px;
+  padding: 8px 12px;
+  border: 2px #e4e4e4 solid;
+  color: #e4e4e4;
+  border-radius: 5px;
+  font-family: "Inter", sans-serif;
+  font-weight: bolder;
+}
+
+.aboutmepage .aboutme-teks .tombol .tombol-lihat:hover {
+  background-color: #24a0ed;
+  border: 2px #24a0ed solid;
+}
+
+/* SERVICE PAGE */
+
+.servicepage {
+  display: flex;
+  flex-direction: column;
+  height: 720px;
+}
+
+.servicepage .service-teks {
+  width: 100%;
+  height: 20%;
+  background-color: #e4e4e4;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.servicepage .service-teks h1 {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.servicepage .service-kartu {
+  width: 100%;
+  height: 80%;
+  padding-top: 120px;
+  background-color: #e4e4e4;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.servicepage .service-kartu .kartu-1 {
+  width: 25%;
+  height: 300px;
+  margin: 0 10px;
+  background-color: #e4e4e4;
+}
+
+.servicepage .service-kartu .kartu-1:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.servicepage .service-kartu .kartu-1 img {
+  display: block;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 120px;
+}
+
+.servicepage .service-kartu .kartu-1 h2 {
+  margin-top: 30px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.servicepage .service-kartu .kartu-1 p {
+  margin: 10px 30px;
+  text-align: justify;
+  font-family: "Inter", sans-serif;
+}
+
+.servicepage .service-kartu .kartu-2 {
+  width: 25%;
+  height: 300px;
+  margin: 0 20px;
+  background-color: #e4e4e4;
+}
+
+.servicepage .service-kartu .kartu-2:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.servicepage .service-kartu .kartu-2 img {
+  display: block;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 120px;
+}
+
+.servicepage .service-kartu .kartu-2 h2 {
+  margin-top: 30px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.servicepage .service-kartu .kartu-2 p {
+  margin: 10px 30px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+}
+
+.servicepage .service-kartu .kartu-3 {
+  width: 25%;
+  height: 300px;
+  margin: 0 10px;
+  background-color: #e4e4e4;
+}
+
+.servicepage .service-kartu .kartu-3:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.servicepage .service-kartu .kartu-3 img {
+  display: block;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 120px;
+}
+
+.servicepage .service-kartu .kartu-3 h2 {
+  margin-top: 30px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.servicepage .service-kartu .kartu-3 p {
+  margin: 10px 30px;
+  text-align: justify;
+  font-family: "Inter", sans-serif;
+}
+
+/* DESKTOP ------------------------------------------------------------*/
+
+@media (max-width: 1100px) {
+  /* LANDING PAGE */
+
+  .landingpage .lp-teks h1 {
+    font-size: 35px;
+    margin-left: 60px;
+  }
+
+  .landingpage .lp-teks h3 {
+    margin-left: 60px;
+  }
+
+  .landingpage .lp-teks .sosialmedia {
+    margin-left: 45px;
+  }
+
+  .landingpage .lp-gambar img {
+    bottom: -90px;
+    height: 570px;
+  }
+
+  /* ABOUT ME PAGE */
+
+  .aboutmepage .aboutme-teks {
+    overflow: hidden;
+  }
+
+  .aboutmepage .aboutme-teks h1 {
+    margin-top: 120px;
+  }
+
+  .aboutmepage .aboutme-teks h3 {
+    margin-right: 80px;
+  }
+
+  /* SERVICE PAGE */
+
+  .servicepage .service-kartu .kartu-1 {
+    margin: 0 5px;
+  }
+
+  .servicepage .service-kartu .kartu-1 img {
+    width: 80px;
+  }
+
+  .servicepage .service-kartu .kartu-1 h2 {
+    font-size: 17px;
+  }
+
+  .servicepage .service-kartu .kartu-1 p {
+    margin: 10px 20px;
+  }
+
+  .servicepage .service-kartu .kartu-2 {
+    margin: 0 5px;
+  }
+
+  .servicepage .service-kartu .kartu-2 img {
+    width: 80px;
+  }
+
+  .servicepage .service-kartu .kartu-2 h2 {
+    font-size: 17px;
+  }
+
+  .servicepage .service-kartu .kartu-2 p {
+    margin: 10px 20px;
+    text-align: justify;
+  }
+
+  .servicepage .service-kartu .kartu-3 {
+    margin: 0 5px;
+  }
+
+  .servicepage .service-kartu .kartu-3 img {
+    width: 80px;
+  }
+
+  .servicepage .service-kartu .kartu-3 h2 {
+    font-size: 17px;
+  }
+
+  .servicepage .service-kartu .kartu-3 p {
+    margin: 10px 20px;
+  }
+}
+
+/* NOTEBOOK ------------------------------------------------------------*/
+
+@media (max-width: 950px) {
+  /* LANDING PAGE */
+
+  .landingpage .lp-teks {
+    width: 100%;
+    height: 720px;
+  }
+
+  .landingpage .lp-teks h1 {
+    margin-top: 250px;
+    margin-left: 0px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .landingpage .lp-teks h3 {
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+  }
+
+  .landingpage .lp-teks .sosialmedia {
+    margin-left: 0px;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .landingpage .lp-gambar {
+    display: none;
+  }
+
+  /* ABOUT ME */
+
+  .aboutmepage .aboutme-gambar {
+    display: none;
+  }
+
+  .aboutmepage .aboutme-teks {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .aboutmepage .aboutme-teks h1 {
+    margin-top: 120px;
+    text-align: center;
+  }
+
+  .aboutmepage .aboutme-teks h3 {
+    text-align: justify;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 80px;
+  }
+
+  .aboutmepage .aboutme-teks .tombol {
+    margin-left: 80px;
+  }
+
+  /* SERVICE */
+
+  .servicepage {
+    height: max-content;
+  }
+
+  .servicepage .service-teks h1 {
+    margin-top: 30px;
+  }
+
+  .servicepage .service-kartu {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    overflow: hidden;
+  }
+
+  .servicepage .service-kartu .kartu-1 {
+    width: 700px;
+    height: 300px;
+    display: block;
+    margin: 0px auto 30px auto;
+  }
+
+  .servicepage .service-kartu .kartu-1 img {
+    width: 100px;
+    margin-top: 30px;
+  }
+
+  .servicepage .service-kartu .kartu-1 h2 {
+    font-size: large;
+  }
+
+  .servicepage .service-kartu .kartu-1 p {
+    margin: 10px 5px;
+    padding: 0px 30px;
+    font-size: smaller;
+    text-align: center;
+  }
+
+  .servicepage .service-kartu .kartu-2 {
+    width: 700px;
+    height: 300px;
+    display: block;
+    margin: 0px auto 30px auto;
+  }
+
+  .servicepage .service-kartu .kartu-2 img {
+    width: 100px;
+    margin-top: 50px;
+  }
+
+  .servicepage .service-kartu .kartu-2 h2 {
+    font-size: large;
+  }
+
+  .servicepage .service-kartu .kartu-2 p {
+    margin: 10px 5px;
+    padding: 0px 30px;
+    font-size: smaller;
+    text-align: center;
+  }
+
+  .servicepage .service-kartu .kartu-3 {
+    width: 700px;
+    height: 300px;
+    display: block;
+    margin: 0px auto 30px auto;
+  }
+
+  .servicepage .service-kartu .kartu-3 img {
+    width: 100px;
+    margin-top: 50px;
+  }
+
+  .servicepage .service-kartu .kartu-3 h2 {
+    font-size: large;
+  }
+
+  .servicepage .service-kartu .kartu-3 p {
+    margin: 10px 5px;
+    padding: 0px 30px;
+    font-size: smaller;
+    text-align: center;
+  }
+}
+
+/* TABLET ------------------------------------------------------------- */
+
+@media only screen and (max-width: 768px) {
+  /* LANDING PAGE */
+
+  header img {
+    margin-left: 25px;
+  }
+
+  .landingpage .lp-teks {
+    width: 100%;
+    height: 720px;
+  }
+
+  .landingpage .lp-teks h1 {
+    margin-top: 250px;
+    margin-left: 0px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .landingpage .lp-teks h3 {
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+  }
+
+  .landingpage .lp-teks .sosialmedia {
+    margin-left: 0px;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .landingpage .lp-gambar {
+    display: none;
+  }
+
+  /* ABOUT ME */
+
+  .aboutmepage .aboutme-gambar {
+    display: none;
+  }
+
+  .aboutmepage .aboutme-teks {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .aboutmepage .aboutme-teks h1 {
+    margin-top: 120px;
+    text-align: center;
+  }
+
+  .aboutmepage .aboutme-teks h3 {
+    text-align: justify;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 30px;
+  }
+
+  .aboutmepage .aboutme-teks .tombol {
+    margin-left: 30px;
+  }
+
+  /* SERVICE */
+
+  .servicepage {
+    height: max-content;
+  }
+
+  .servicepage .service-teks h1 {
+    margin-top: 30px;
+  }
+
+  .servicepage .service-kartu {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    overflow: hidden;
+  }
+
+  .servicepage .service-kartu .kartu-1 {
+    width: 400px;
+    height: 300px;
+    display: block;
+    margin: 0px auto 30px auto;
+  }
+
+  .servicepage .service-kartu .kartu-1 img {
+    width: 100px;
+    margin-top: 30px;
+  }
+
+  .servicepage .service-kartu .kartu-1 h2 {
+    font-size: large;
+  }
+
+  .servicepage .service-kartu .kartu-1 p {
+    margin: 10px 5px;
+    padding: 0px 30px;
+    font-size: smaller;
+  }
+
+  .servicepage .service-kartu .kartu-2 {
+    width: 400px;
+    height: 300px;
+    display: block;
+    margin: 0px auto 30px auto;
+  }
+
+  .servicepage .service-kartu .kartu-2 img {
+    width: 100px;
+    margin-top: 50px;
+  }
+
+  .servicepage .service-kartu .kartu-2 h2 {
+    font-size: large;
+  }
+
+  .servicepage .service-kartu .kartu-2 p {
+    margin: 10px 5px;
+    padding: 0px 30px;
+    font-size: smaller;
+    text-align: center;
+  }
+
+  .servicepage .service-kartu .kartu-3 {
+    width: 400px;
+    height: 300px;
+    display: block;
+    margin: 0px auto 30px auto;
+  }
+
+  .servicepage .service-kartu .kartu-3 img {
+    width: 100px;
+    margin-top: 50px;
+  }
+
+  .servicepage .service-kartu .kartu-3 h2 {
+    font-size: large;
+  }
+
+  .servicepage .service-kartu .kartu-3 p {
+    margin: 10px 5px;
+    padding: 0px 30px;
+    font-size: smaller;
+  }
+}
+
+/* HANDPHONE -----------------------------------------------------------*/
+
+@media only screen and (max-width: 480px) {
+  /* LANDING PAGE */
+
+  header img {
+    margin-left: 25px;
+  }
+
+  .landingpage .lp-teks {
+    width: 100%;
+    height: 720px;
+  }
+
+  .landingpage .lp-teks h1 {
+    margin-top: 250px;
+    margin-left: 0px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .landingpage .lp-teks h3 {
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+  }
+
+  .landingpage .lp-teks .sosialmedia {
+    margin-left: 0px;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .landingpage .lp-gambar {
+    display: none;
+  }
+
+  /* ABOUT ME */
+
+  .aboutmepage .aboutme-gambar {
+    display: none;
+  }
+
+  .aboutmepage .aboutme-teks {
+    width: 100%;
+  }
+
+  .aboutmepage .aboutme-teks h1 {
+    margin-top: 120px;
+    text-align: center;
+  }
+
+  .aboutmepage .aboutme-teks h3 {
+    text-align: justify;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 30px;
+  }
+
+  .aboutmepage .aboutme-teks .tombol {
+    margin-left: 30px;
+  }
+
+  /* SERVICE */
+
+  .servicepage {
+    height: max-content;
+  }
+
+  .servicepage .service-teks h1 {
+    margin-top: 30px;
+    font-size: 27px;
+  }
+
+  .servicepage .service-kartu {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+  }
+
+  .servicepage .service-kartu .kartu-1 {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 0px auto 30px auto;
+  }
+
+  .servicepage .service-kartu .kartu-1 img {
+    width: 100px;
+    margin-top: 30px;
+  }
+
+  .servicepage .service-kartu .kartu-1 h2 {
+    font-size: large;
+  }
+
+  .servicepage .service-kartu .kartu-1 p {
+    margin: 10px 5px;
+    padding: 0px 30px;
+    font-size: smaller;
+    text-align: justify;
+  }
+
+  .servicepage .service-kartu .kartu-2 {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 0px auto 30px auto;
+  }
+
+  .servicepage .service-kartu .kartu-2 img {
+    width: 100px;
+    margin-top: 50px;
+  }
+
+  .servicepage .service-kartu .kartu-2 h2 {
+    font-size: large;
+  }
+
+  .servicepage .service-kartu .kartu-2 p {
+    margin: 10px 5px;
+    padding: 0px 30px;
+    font-size: smaller;
+    text-align: justify;
+  }
+
+  .servicepage .service-kartu .kartu-3 {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 0px auto 30px auto;
+  }
+
+  .servicepage .service-kartu .kartu-3 img {
+    width: 100px;
+    margin-top: 50px;
+  }
+
+  .servicepage .service-kartu .kartu-3 h2 {
+    font-size: large;
+  }
+
+  .servicepage .service-kartu .kartu-3 p {
+    margin: 10px 5px;
+    padding: 0px 30px;
+    font-size: smaller;
+    text-align: justify;
+  }
+}
